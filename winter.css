@@ -1,0 +1,35 @@
+button{
+    background-color: rgb(108, 62, 225);
+    padding: 10px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.shipping{
+    display: grid;
+    grid-template-columns: 35% 35%  30%;
+}
+.buttons{
+    border-radius: 90px;
+}
+.container_gallery{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.container_gallery img{
+    height: 110%;
+    width: 95%;
+
+}
+footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+li{
+    list-style: none;
+    line-height: 30px;
+}
+.footers img{
+    height: 40px;
+}
